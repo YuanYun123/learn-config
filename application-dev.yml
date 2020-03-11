@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://learn-eureka-servere:8762/eureka/
+      defaultZone: http://learn-eureka-server:8762/eureka/
 
 server:
   tomcat:
