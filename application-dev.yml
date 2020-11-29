@@ -35,8 +35,11 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
+  sleuth:
+    sampler:
+      probability: 1.0
   zipkin:
-    base-url: http://localhost:5001
+    base-url: http://192.168.74.1:5001
 redis:
   cache:
     expiration: 3601
