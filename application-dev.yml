@@ -39,7 +39,7 @@ spring:
     sampler:
       probability: 1.0
   zipkin:
-    base-url: http://192.168.74.130:5001
+    base-url: http://192.168.74.130:9411
     sender:
       type: web
 redis:
