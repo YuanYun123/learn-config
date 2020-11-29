@@ -40,6 +40,8 @@ spring:
       probability: 1.0
   zipkin:
     base-url: http://localhost:5001
+    sender:
+      type: web
 redis:
   cache:
     expiration: 3601
