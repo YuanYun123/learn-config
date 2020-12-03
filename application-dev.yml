@@ -94,6 +94,6 @@ management:
         auto-time-requests: false
         
 test: 
-  refresh: 123456
+  refresh: 512
     
 
