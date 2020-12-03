@@ -94,6 +94,6 @@ management:
         auto-time-requests: false
         
 test: 
-  refresh: ok 
+  refresh: no 
     
 
