@@ -92,10 +92,4 @@ management:
     web:
       server:
         auto-time-requests: false
-  endpoints:  # 暴露bus 接口 ，否则 更新 refresh 没用的
-    web:
-      exposure:    # expose: "*" 已过期
-        include: "*"
-  endpoint:
-    bus-refresh:
-      enabled: true
+
